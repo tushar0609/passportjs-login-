@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('./images/stock.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 30%;
+    height: 65%;
+    background-color: rgba(245,241,235,0.76);
+    box-shadow: 2px 3px #0f0a0a;
+    border: rgb(216, 210, 210) 2px solid;
+    border-radius: 10px;
+}
+
+#signup{
+    margin-top: 35px;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+}
+
+.button-heading{
+    width: 192px;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.button-heading:hover{
+    background-color: rgb(189, 189, 218);
+    color: rgb(63, 4, 4);
+}
+.heading{
+    margin: 24px;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: black;
+}
+.field-wrap input{
+    display: block;
+    width: 80%;
+    height: 25px;
+    margin: 20px auto;
+    padding: 6px 6px;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.3);
+    color: black;
+}
+.field-wrap-name{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.field-wrap-name input{
+    width: 172px;
+    height: 25px;
+    margin: 0px 5px;
+    padding: 6px 6px;
+    font-size: 15px;
+    font-family:'Open Sans', sans-serif;
+    border-bottom: 2px solid black;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.3);
+    color: black;
+}
+.forgot {
+    margin:25px;
+    text-align:right;
+  }
+.forgot a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.forgot a:hover{
+    color: red;
+  }
+.button-block{
+    display: block;
+    width: 60%;
+    height: 55px;
+    margin: 40px auto;
+    padding: 6px 6px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.button-block:hover{
+    background-color: rgb(189, 189, 218);
+    color: rgb(63, 4, 4);
+}
